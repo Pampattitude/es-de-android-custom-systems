@@ -44,6 +44,12 @@
             <entry>org.uzuy.uzuy_emu/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+    <emulator name="UZUY">
+        <!-- Nintendo Switch emulator Uzuy -->
+        <rule type="androidpackage">
+            <entry>org.uzuy.uzuy_emu/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="UZUY-EA">
         <!-- Nintendo Switch emulator Uzuy (Early Access) -->
         <rule type="androidpackage">

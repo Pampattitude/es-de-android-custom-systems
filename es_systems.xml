@@ -311,6 +311,8 @@
             %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Suyu (Standalone)">%EMULATOR_SUYU% %ACTION%=android.intent.action.VIEW
             %DATA%=%ROMPROVIDER%</command>
+        <command label="Uzuy (Standalone)">%EMULATOR_UZUY%
+            %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Uzuy EA (Standalone)">%EMULATOR_UZUY-EA%
             %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
         <command label="Uzuy MMJR (Standalone)">%EMULATOR_UZUY-MMJR%
