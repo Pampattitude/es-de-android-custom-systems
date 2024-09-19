@@ -44,10 +44,16 @@
             <entry>org.uzuy.uzuy_emu/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
-    <emulator name="UZUY">
-        <!-- Nintendo Switch emulator Uzuy -->
+    <emulator name="UZUY-EA">
+        <!-- Nintendo Switch emulator Uzuy (Early Access) -->
         <rule type="androidpackage">
-            <entry>org.uzuy.uzuy_emu.mmjr/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
+            <entry>org.uzuy.uzuy_emu.ea/org.uzuy.uzuy_emu.ea.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="UZUY-MMJR">
+        <!-- Nintendo Switch emulator Uzuy (MMJR) -->
+        <rule type="androidpackage">
+            <entry>org.uzuy.uzuy_emu.mmjr/org.uzuy.uzuy_emu.mmjr.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="SUYU">
