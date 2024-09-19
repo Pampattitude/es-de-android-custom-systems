@@ -4,20 +4,21 @@
     <emulator name="CITRA-ENHANCED">
         <!-- Nintendo 3DS emulator Citra Enhanced -->
         <rule type="androidpackage">
-	     <entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
+            <entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
         </rule>
-    </emulator>	
+    </emulator>
     <emulator name="MANDARINE">
         <!-- Nintendo 3DS emulator Mandarine -->
         <rule type="androidpackage">
-            <entry>io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
+            <entry>
+                io.github.mandarine3ds.mandarine/io.github.mandarine3ds.mandarine.activities.EmulationActivity</entry>
         </rule>
-    </emulator>	
+    </emulator>
     <emulator name="NOODS">
-       <!-- Nintendo DS emulator NooDS -->
+        <!-- Nintendo DS emulator NooDS -->
         <rule type="androidpackage">
-	    <entry>com.hydra.noods/.FileBrowser</entry>
-	</rule>
+            <entry>com.hydra.noods/.FileBrowser</entry>
+        </rule>
     </emulator>
     <emulator name="SKYLINE">
         <!-- Nintendo Switch emulator Skyline -->
@@ -43,13 +44,19 @@
             <entry>org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
+    <emulator name="UZUY">
+        <!-- Nintendo Switch emulator Uzuy -->
+        <rule type="androidpackage">
+            <entry>org.uzuy.uzuy_emu.mmjr/org.uzuy.uzuy_emu.activities.EmulationActivity</entry>
+        </rule>
+    </emulator>
     <emulator name="SUYU">
-	<!-- Nintendo Switch emulator Suyu -->
-	<rule type="androidpackage">
-	    <entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
-	    <entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-	    <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
-	</rule>
+        <!-- Nintendo Switch emulator Suyu -->
+        <rule type="androidpackage">
+            <entry>org.suyu.suyu_emu/org.suyu.suyu_emu.activities.EmulationActivity</entry>
+            <entry>dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+            <entry>dev.suyu.suyu_emu/dev.suyu.suyu_emu.activities.EmulationActivity</entry>
+        </rule>
     </emulator>
     <emulator name="WINLATOR-GLIBC">
         <!-- Winlator Cmod Glibc -->
